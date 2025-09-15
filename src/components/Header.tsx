@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Phone, Mail } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const navigation = [
@@ -18,22 +18,6 @@ export function Header() {
 
   return (
     <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
-      {/* Top contact bar */}
-      <div className="bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 py-2">
-          <div className="flex items-center justify-center sm:justify-end space-x-6 text-sm">
-            <a href="tel:+1-800-123-4567" className="flex items-center space-x-1 hover:opacity-80 transition-opacity">
-              <Phone className="h-3 w-3" />
-              <span>1-800-LABS-TEST</span>
-            </a>
-            <a href="mailto:info@therapeaklabs.com" className="flex items-center space-x-1 hover:opacity-80 transition-opacity">
-              <Mail className="h-3 w-3" />
-              <span>info@therapeaklabs.com</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main navigation */}
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
