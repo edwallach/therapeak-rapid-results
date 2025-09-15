@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Badge } from '@/components/ui/badge';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 
 const footerLinks = {
   services: [
@@ -48,10 +48,6 @@ export function Footer() {
             
             {/* Contact Info */}
             <div className="space-y-3">
-              <div className="flex items-center space-x-2 text-sm">
-                <Phone className="h-4 w-4" />
-                <span>1-800-LABS-TEST</span>
-              </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Mail className="h-4 w-4" />
                 <span>info@therapeaklabs.com</span>
