@@ -132,7 +132,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-foreground/80 text-sm">
-            © 2024 Thera Peak Labs. All rights reserved.
+            © 2012 Thera Peak Labs. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <span className="text-primary-foreground/60 text-sm">
