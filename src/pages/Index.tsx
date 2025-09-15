@@ -59,11 +59,6 @@ const Index = () => {
           <p className="text-xl mb-8 text-primary-foreground/90 max-w-2xl mx-auto">
             Talk to a scientist today about expedited testing options and emergency protocols.
           </p>
-          <div className="flex justify-center">
-            <Button size="lg" variant="outline" asChild className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
-              <Link to="/sample-submission">Submit Sample Online</Link>
-            </Button>
-          </div>
         </div>
       </section>
 
