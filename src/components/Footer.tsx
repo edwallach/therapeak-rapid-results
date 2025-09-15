@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Badge } from '@/components/ui/badge';
 import { Mail, MapPin } from 'lucide-react';
-import theraPeakLogo from '@/assets/thera-peak-logo.png';
+import theraPeakLogo from '@/assets/thera-peak-logo-cropped.png';
 
 const footerLinks = {
   services: [
@@ -41,7 +41,7 @@ export function Footer() {
               <img 
                 src={theraPeakLogo} 
                 alt="Thera Peak Labs Logo" 
-                className="h-10 w-auto"
+                className="h-14 w-auto"
               />
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">

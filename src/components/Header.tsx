@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import theraPeakLogo from '@/assets/thera-peak-logo-cropped.png';
 
 const navigation = [
   { name: 'Services', href: '/services' },
@@ -23,10 +24,11 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 bg-accent rounded-sm flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-sm">TP</span>
-            </div>
-            <span className="font-semibold text-lg text-foreground">Thera Peak Labs</span>
+            <img 
+              src={theraPeakLogo} 
+              alt="Thera Peak Labs" 
+              className="h-8 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
