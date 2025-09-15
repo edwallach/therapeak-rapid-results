@@ -11,7 +11,6 @@ const navigation = [
   { name: 'Industries', href: '/industries' },
   { name: 'Resources', href: '/resources' },
   { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
 ];
 
 export function Header() {
@@ -46,9 +45,6 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden sm:flex items-center space-x-4">
-            <Button variant="outline" size="sm" asChild>
-              <Link to="/contact">Request Quote</Link>
-            </Button>
             <Button size="sm" asChild className="bg-accent hover:bg-accent/90">
               <Link to="/sample-submission">Submit Sample</Link>
             </Button>
@@ -74,9 +70,6 @@ export function Header() {
                   </Link>
                 ))}
                 <div className="border-t pt-4 space-y-2">
-                  <Button variant="outline" size="sm" asChild className="w-full">
-                    <Link to="/contact" onClick={() => setIsOpen(false)}>Request Quote</Link>
-                  </Button>
                   <Button size="sm" asChild className="w-full bg-accent hover:bg-accent/90">
                     <Link to="/sample-submission" onClick={() => setIsOpen(false)}>Submit Sample</Link>
                   </Button>
