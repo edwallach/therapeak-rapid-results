@@ -19,7 +19,6 @@ const footerLinks = {
   company: [
     { name: 'About Us', href: '/about' },
     { name: 'Accreditations', href: '/about' },
-    { name: 'Resources', href: '/resources' },
     { name: 'Sample Submission', href: '/sample-submission' },
   ],
   legal: [
