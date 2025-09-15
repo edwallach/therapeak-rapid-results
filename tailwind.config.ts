@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Clinical design system colors
+        lab: {
+          blue: "hsl(var(--lab-blue))",
+          "blue-foreground": "hsl(var(--lab-blue-foreground))",
+        },
+        trust: {
+          green: "hsl(var(--trust-green))",
+        },
+        warning: {
+          amber: "hsl(var(--warning-amber))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
