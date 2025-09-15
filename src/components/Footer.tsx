@@ -48,7 +48,7 @@ export function Footer() {
             </p>
             
             {/* Contact Info */}
-            <div className="space-y-3">
+            <div id="contact-info" className="space-y-3">
               <div className="flex items-center space-x-2 text-sm">
                 <Mail className="h-4 w-4" />
                 <span>info@therapeaklabs.com</span>
