@@ -54,7 +54,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <MapPin className="h-4 w-4" />
-                <span>Research Park, CA 90210</span>
+                <span>625 S 27th Ave, Phoenix, AZ 85009</span>
               </div>
             </div>
 
