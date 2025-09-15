@@ -38,12 +38,7 @@ const Index = () => {
               We help food producers prevent recalls with fast, reliable results. 
               Specialists in Listeria, Salmonella, and E. coli.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground">
-                <Link to="/contact">
-                  Request a Quote <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
+            <div className="flex justify-center">
               <Button size="lg" variant="secondary" asChild>
                 <Link to="/services">View Services</Link>
               </Button>
