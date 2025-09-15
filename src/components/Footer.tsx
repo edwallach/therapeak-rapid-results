@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Badge } from '@/components/ui/badge';
 import { Mail, MapPin } from 'lucide-react';
+import theraPeakLogo from '@/assets/thera-peak-logo.png';
 
 const footerLinks = {
   services: [
@@ -36,11 +37,12 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="h-8 w-8 bg-accent rounded-sm flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-sm">TP</span>
-              </div>
-              <span className="font-semibold text-lg">Thera Peak Labs</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src={theraPeakLogo} 
+                alt="Thera Peak Labs Logo" 
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
               ISO 17025 accredited food safety laboratory providing rapid pathogen testing and environmental monitoring for food producers nationwide.
