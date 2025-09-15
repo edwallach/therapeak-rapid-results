@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import theraPeakLogo from '@/assets/thera-peak-logo-final.png';
+import theraPeakLogo from '@/assets/thera-peak-logo-new.png';
 
 const navigation = [
   { name: 'Services', href: '/services' },
