@@ -45,7 +45,7 @@ export function Header() {
           {/* CTA Button */}
           <div className="hidden sm:flex items-center space-x-4">
             <Button size="sm" asChild className="bg-accent hover:bg-accent/90">
-              <Link to="/sample-submission">Submit Sample</Link>
+              <Link to="/#contact">Contact Us</Link>
             </Button>
           </div>
 
@@ -70,7 +70,7 @@ export function Header() {
                 ))}
                 <div className="border-t pt-4 space-y-2">
                   <Button size="sm" asChild className="w-full bg-accent hover:bg-accent/90">
-                    <Link to="/sample-submission" onClick={() => setIsOpen(false)}>Submit Sample</Link>
+                    <Link to="/#contact" onClick={() => setIsOpen(false)}>Contact Us</Link>
                   </Button>
                 </div>
               </nav>
