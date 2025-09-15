@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Badge } from '@/components/ui/badge';
 import { Mail, MapPin } from 'lucide-react';
-import theraPeakLogo from '@/assets/thera-peak-logo-cropped.png';
+import theraPeakLogo from '@/assets/thera-peak-logo-final.png';
 
 const footerLinks = {
   services: [
