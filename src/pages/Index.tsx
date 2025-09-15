@@ -59,13 +59,7 @@ const Index = () => {
           <p className="text-xl mb-8 text-primary-foreground/90 max-w-2xl mx-auto">
             Talk to a scientist today about expedited testing options and emergency protocols.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-              <Link to="/contact">
-                <Phone className="mr-2 h-5 w-5" />
-                Call Now: 1-800-LABS-TEST
-              </Link>
-            </Button>
+          <div className="flex justify-center">
             <Button size="lg" variant="outline" asChild className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
               <Link to="/sample-submission">Submit Sample Online</Link>
             </Button>
