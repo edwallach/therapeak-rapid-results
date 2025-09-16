@@ -70,7 +70,7 @@ export function Footer() {
             <div id="contact-info" className="space-y-3">
               <div className="flex items-center space-x-2 text-sm">
                 <Mail className="h-4 w-4" />
-                <span>info@therapeaklab.com</span>
+                <a href="mailto:info@therapeaklab.com" className="hover:text-primary-foreground transition-colors">info@therapeaklab.com</a>
               </div>
               <div className="flex items-center space-x-2 text-sm">
                 <MapPin className="h-4 w-4" />
