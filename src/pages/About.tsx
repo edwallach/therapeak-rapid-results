@@ -74,7 +74,7 @@ const About = () => {
                     <div className="text-center">
                       <div className="relative mb-4">
                         <img 
-                          src={teamFounderCEO} 
+                          src={teamTechnician} 
                           alt="Dr. Robert Williams - Founder & CEO"
                           className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-primary/20"
                         />
@@ -170,7 +170,7 @@ const About = () => {
                     <div className="text-center">
                       <div className="relative mb-4">
                         <img 
-                          src={teamTechnician} 
+                          src={teamFounderCEO} 
                           alt="James Rodriguez - Lead Laboratory Technician"
                           className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
                         />
