@@ -1,13 +1,6 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import teamFounderCEO from '@/assets/team-founder-ceo.jpg';
-import teamCFO from '@/assets/team-cfo.jpg';
-import teamCOO from '@/assets/team-coo.jpg';
-import teamDirector from '@/assets/team-director.jpg';
-import teamScientist from '@/assets/team-scientist.jpg';
-import teamQAManager from '@/assets/team-qa-manager.jpg';
-import teamTechnician from '@/assets/team-technician.jpg';
-import teamEmmaHilger from '@/assets/team-emma-hilger.jpg';
+import { Crown, Calculator, Settings, Microscope, FlaskConical, Shield, TestTube } from 'lucide-react';
 
 const About = () => {
   return (
@@ -74,11 +67,9 @@ const About = () => {
                   <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                     <div className="text-center">
                       <div className="relative mb-4">
-                        <img 
-                          src={teamTechnician} 
-                          alt="Dr. Robert Williams - Founder & CEO"
-                          className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
+                        <div className="w-40 h-40 rounded-full mx-auto bg-primary/10 border-4 border-primary/20 flex items-center justify-center">
+                          <Crown className="w-16 h-16 text-primary" />
+                        </div>
                       </div>
                       <h4 className="text-lg font-semibold mb-1">Dr. Robert Williams</h4>
                       <p className="text-primary font-medium mb-2">Founder & CEO</p>
@@ -89,11 +80,9 @@ const About = () => {
                     
                     <div className="text-center">
                       <div className="relative mb-4">
-                        <img 
-                          src={teamCFO} 
-                          alt="Lisa Anderson - Chief Financial Officer"
-                          className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
+                        <div className="w-40 h-40 rounded-full mx-auto bg-primary/10 border-4 border-primary/20 flex items-center justify-center">
+                          <Calculator className="w-16 h-16 text-primary" />
+                        </div>
                       </div>
                       <h4 className="text-lg font-semibold mb-1">Lisa Anderson</h4>
                       <p className="text-primary font-medium mb-2">Chief Financial Officer</p>
@@ -104,11 +93,9 @@ const About = () => {
                     
                     <div className="text-center">
                       <div className="relative mb-4">
-                        <img 
-                          src={teamCOO} 
-                          alt="David Park - Chief Operating Officer"
-                          className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
+                        <div className="w-40 h-40 rounded-full mx-auto bg-primary/10 border-4 border-primary/20 flex items-center justify-center">
+                          <Settings className="w-16 h-16 text-primary" />
+                        </div>
                       </div>
                       <h4 className="text-lg font-semibold mb-1">David Park</h4>
                       <p className="text-primary font-medium mb-2">Chief Operating Officer</p>
@@ -125,11 +112,9 @@ const About = () => {
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div className="text-center">
                       <div className="relative mb-4">
-                        <img 
-                          src={teamDirector} 
-                          alt="Dr. Sarah Martinez - Laboratory Director"
-                          className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
+                        <div className="w-32 h-32 rounded-full mx-auto bg-primary/10 border-4 border-primary/20 flex items-center justify-center">
+                          <Microscope className="w-12 h-12 text-primary" />
+                        </div>
                       </div>
                       <h4 className="text-lg font-semibold mb-1">Dr. Sarah Martinez</h4>
                       <p className="text-primary font-medium mb-2">Laboratory Director</p>
@@ -140,11 +125,9 @@ const About = () => {
                     
                     <div className="text-center">
                       <div className="relative mb-4">
-                        <img 
-                          src={teamScientist} 
-                          alt="Michael Chen - Senior Research Scientist"
-                          className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
+                        <div className="w-32 h-32 rounded-full mx-auto bg-primary/10 border-4 border-primary/20 flex items-center justify-center">
+                          <FlaskConical className="w-12 h-12 text-primary" />
+                        </div>
                       </div>
                       <h4 className="text-lg font-semibold mb-1">Michael Chen</h4>
                       <p className="text-primary font-medium mb-2">Senior Research Scientist</p>
@@ -155,11 +138,9 @@ const About = () => {
                     
                     <div className="text-center">
                       <div className="relative mb-4">
-                        <img 
-                          src={teamEmmaHilger} 
-                          alt="Emma Hilger - Quality Assurance Manager"
-                          className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
+                        <div className="w-32 h-32 rounded-full mx-auto bg-primary/10 border-4 border-primary/20 flex items-center justify-center">
+                          <Shield className="w-12 h-12 text-primary" />
+                        </div>
                       </div>
                       <h4 className="text-lg font-semibold mb-1">Emma Hilger</h4>
                       <p className="text-primary font-medium mb-2">Quality Assurance Manager</p>
@@ -170,11 +151,9 @@ const About = () => {
                     
                     <div className="text-center">
                       <div className="relative mb-4">
-                        <img 
-                          src={teamFounderCEO} 
-                          alt="James Rodriguez - Lead Laboratory Technician"
-                          className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
+                        <div className="w-32 h-32 rounded-full mx-auto bg-primary/10 border-4 border-primary/20 flex items-center justify-center">
+                          <TestTube className="w-12 h-12 text-primary" />
+                        </div>
                       </div>
                       <h4 className="text-lg font-semibold mb-1">James Rodriguez</h4>
                       <p className="text-primary font-medium mb-2">Lead Laboratory Technician</p>
