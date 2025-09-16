@@ -7,6 +7,7 @@ import teamDirector from '@/assets/team-director.jpg';
 import teamScientist from '@/assets/team-scientist.jpg';
 import teamQAManager from '@/assets/team-qa-manager.jpg';
 import teamTechnician from '@/assets/team-technician.jpg';
+import teamEmmaHilger from '@/assets/team-emma-hilger.jpg';
 
 const About = () => {
   return (
@@ -155,12 +156,12 @@ const About = () => {
                     <div className="text-center">
                       <div className="relative mb-4">
                         <img 
-                          src={teamQAManager} 
-                          alt="Emma Thompson - Quality Assurance Manager"
+                          src={teamEmmaHilger} 
+                          alt="Emma Hilger - Quality Assurance Manager"
                           className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
                         />
                       </div>
-                      <h4 className="text-lg font-semibold mb-1">Emma Thompson</h4>
+                      <h4 className="text-lg font-semibold mb-1">Emma Hilger</h4>
                       <p className="text-primary font-medium mb-2">Quality Assurance Manager</p>
                       <p className="text-sm text-muted-foreground">
                         B.S. in Biology with ISO 17025 certification and 8 years in quality control.
