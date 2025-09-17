@@ -10,7 +10,7 @@ const Industries = () => {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold mb-8">Industries We Serve</h1>
             <p className="text-lg text-muted-foreground mb-12">
-              Thera Peak Labs provides specialized testing services across multiple industries.
+              Thera Peak Labs Inc. provides specialized testing services across multiple industries.
             </p>
             
             <div className="grid md:grid-cols-2 gap-8">

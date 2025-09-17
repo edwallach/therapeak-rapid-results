@@ -72,7 +72,7 @@ const services = [
 export default function Services() {
   return (
     <>
-      <title>Food Safety Testing Services - Thera Peak Labs</title>
+      <title>Food Safety Testing Services - Thera Peak Labs Inc.</title>
       <meta name="description" content="Comprehensive food safety testing services including pathogen detection, environmental monitoring, and finished product testing with rapid turnaround times." />
       
       <Header />

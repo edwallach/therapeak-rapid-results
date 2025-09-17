@@ -9,7 +9,7 @@ const About = () => {
       <main>
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold mb-8">About Thera Peak Labs</h1>
+            <h1 className="text-4xl font-bold mb-8">About Thera Peak Labs Inc.</h1>
             <p className="text-lg text-muted-foreground mb-12">
               Leading the way in precision diagnostics and laboratory testing services.
             </p>
@@ -18,7 +18,7 @@ const About = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-6">Our Mission</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  At Thera Peak Labs, we are committed to delivering accurate, reliable, and timely 
+                  At Thera Peak Labs Inc., we are committed to delivering accurate, reliable, and timely 
                   laboratory testing services that support healthcare professionals, researchers, and 
                   organizations in making informed decisions. Our state-of-the-art facilities and 
                   expert team ensure the highest standards of quality and precision.
@@ -58,7 +58,7 @@ const About = () => {
               <section>
                 <h2 className="text-2xl font-semibold mb-6">Our Team</h2>
                 <p className="text-muted-foreground mb-8">
-                  Meet the dedicated professionals behind Thera Peak Labs' success.
+                  Meet the dedicated professionals behind Thera Peak Labs Inc.'s success.
                 </p>
                 
                 {/* Executive Leadership */}
@@ -74,7 +74,7 @@ const About = () => {
                       <h4 className="text-lg font-semibold mb-1">Dr. Robert Williams</h4>
                       <p className="text-primary font-medium mb-2">Founder & CEO</p>
                       <p className="text-sm text-muted-foreground">
-                        Ph.D. in Biochemistry. Founded Thera Peak Labs in 2012 with a vision for revolutionary diagnostic solutions.
+                        Ph.D. in Biochemistry. Founded Thera Peak Labs Inc. in 2012 with a vision for revolutionary diagnostic solutions.
                       </p>
                     </div>
                     

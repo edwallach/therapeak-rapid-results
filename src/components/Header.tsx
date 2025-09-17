@@ -24,7 +24,7 @@ export function Header() {
           <Link to="/" className="flex items-center space-x-2">
             <img 
               src={theraPeakLogo} 
-              alt="Thera Peak Labs" 
+              alt="Thera Peak Labs Inc." 
               className="h-8 w-auto"
             />
           </Link>
