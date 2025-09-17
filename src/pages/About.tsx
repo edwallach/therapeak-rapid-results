@@ -1,10 +1,8 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Crown, Calculator, Settings, Microscope, FlaskConical, Shield, TestTube, Mail, MapPin } from 'lucide-react';
-
 const About = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Header />
       <main>
         <div className="container mx-auto px-4 py-16">
@@ -165,35 +163,12 @@ const About = () => {
                 </div>
               </section>
               
-              <section>
-                <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
-                <div className="bg-card p-6 rounded-lg border">
-                  <p className="text-muted-foreground mb-6">
-                    Ready to get started? Contact us today to discuss your testing needs 
-                    and learn how we can support your organization.
-                  </p>
-                  
-                  <div className="space-y-4">
-                    <div className="flex items-center space-x-3">
-                      <Mail className="h-5 w-5 text-primary" />
-                      <a href="mailto:info@therapeaklab.com" className="text-foreground hover:text-primary transition-colors">
-                        info@therapeaklab.com
-                      </a>
-                    </div>
-                    <div className="flex items-center space-x-3">
-                      <MapPin className="h-5 w-5 text-primary" />
-                      <span className="text-foreground">625 S 27th Ave, Phoenix, AZ 85009</span>
-                    </div>
-                  </div>
-                </div>
-              </section>
+              
             </div>
           </div>
         </div>
       </main>
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default About;
