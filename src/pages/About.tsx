@@ -170,7 +170,7 @@ const About = () => {
                     <Phone className="h-5 w-5 text-primary" />
                     <div>
                       <p className="font-medium">Phone</p>
-                      <a href="tel:+16024836972" className="text-primary hover:underline">+1 (602) 483-6972</a>
+                      <a href="tel:+16812068144" className="text-primary hover:underline">+1 (681) 206-8144</a>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
