@@ -1,13 +1,13 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Mail, MapPin, Phone } from 'lucide-react';
-import teamCEO from '@/assets/team-ceo.jpg';
-import teamCFO from '@/assets/team-cfo.jpg';
-import teamCOO from '@/assets/team-coo.jpg';
-import teamLabDirector from '@/assets/team-lab-director.jpg';
-import teamResearchScientist from '@/assets/team-research-scientist.jpg';
-import teamQAManager from '@/assets/team-qa-manager.jpg';
-import teamLabTechnician from '@/assets/team-lab-technician.jpg';
+import teamCEO from '@/assets/team-ceo-new.jpg';
+import teamCFO from '@/assets/team-cfo-new.jpg';
+import teamCOO from '@/assets/team-coo-new.jpg';
+import teamLabDirector from '@/assets/team-lab-director-new.jpg';
+import teamResearchScientist from '@/assets/team-research-scientist-new.jpg';
+import teamQAManager from '@/assets/team-qa-manager-new.jpg';
+import teamLabTechnician from '@/assets/team-lab-technician-new.jpg';
 const About = () => {
   return <div className="min-h-screen bg-background">
       <Header />
@@ -81,7 +81,7 @@ const About = () => {
                       <h4 className="text-lg font-semibold mb-1">Dr. Robert Williams</h4>
                       <p className="text-primary font-medium mb-2">Founder & CEO</p>
                       <p className="text-sm text-muted-foreground">
-                        Ph.D. in Biochemistry. Founded Thera Peak Labs Inc. in 2012 with a vision for revolutionary diagnostic solutions.
+                        Ph.D. in Biochemistry with 25+ years of experience. Founded Thera Peak Labs Inc. in 2012 with a vision for revolutionary diagnostic solutions.
                       </p>
                     </div>
                     
@@ -96,7 +96,7 @@ const About = () => {
                       <h4 className="text-lg font-semibold mb-1">Lisa Anderson</h4>
                       <p className="text-primary font-medium mb-2">Chief Financial Officer</p>
                       <p className="text-sm text-muted-foreground">
-                        MBA in Finance with 20+ years in healthcare financial management and strategic planning.
+                        MBA in Finance with 22+ years in healthcare financial management and strategic planning.
                       </p>
                     </div>
                     
@@ -111,7 +111,7 @@ const About = () => {
                       <h4 className="text-lg font-semibold mb-1">David Park</h4>
                       <p className="text-primary font-medium mb-2">Chief Operating Officer</p>
                       <p className="text-sm text-muted-foreground">
-                        M.S. in Operations Management specializing in laboratory workflow optimization and quality systems.
+                        M.S. in Operations Management with 15+ years specializing in laboratory workflow optimization and quality systems.
                       </p>
                     </div>
                   </div>
@@ -132,7 +132,7 @@ const About = () => {
                       <h4 className="text-lg font-semibold mb-1">Dr. Sarah Martinez</h4>
                       <p className="text-primary font-medium mb-2">Laboratory Director</p>
                       <p className="text-sm text-muted-foreground">
-                        Ph.D. in Microbiology with 15+ years in clinical laboratory management.
+                        Ph.D. in Microbiology with 12+ years in clinical laboratory management and pathogen detection.
                       </p>
                     </div>
                     
@@ -147,7 +147,7 @@ const About = () => {
                       <h4 className="text-lg font-semibold mb-1">Michael Chen</h4>
                       <p className="text-primary font-medium mb-2">Senior Research Scientist</p>
                       <p className="text-sm text-muted-foreground">
-                        M.S. in Biochemistry specializing in pathogen detection and molecular diagnostics.
+                        M.S. in Biochemistry with 8+ years specializing in pathogen detection and molecular diagnostics.
                       </p>
                     </div>
                     
@@ -162,7 +162,7 @@ const About = () => {
                       <h4 className="text-lg font-semibold mb-1">Emma Hilger</h4>
                       <p className="text-primary font-medium mb-2">Quality Assurance Manager</p>
                       <p className="text-sm text-muted-foreground">
-                        B.S. in Biology with ISO 17025 certification and 8 years in quality control.
+                        B.S. in Biology with ISO 17025 certification and 5+ years in quality control and compliance.
                       </p>
                     </div>
                     
@@ -177,7 +177,7 @@ const About = () => {
                       <h4 className="text-lg font-semibold mb-1">James Rodriguez</h4>
                       <p className="text-primary font-medium mb-2">Lead Laboratory Technician</p>
                       <p className="text-sm text-muted-foreground">
-                        A.S. in Laboratory Science with expertise in sample processing and analysis.
+                        A.S. in Laboratory Science with 3+ years of expertise in sample processing and analysis.
                       </p>
                     </div>
                   </div>
