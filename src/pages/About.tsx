@@ -1,6 +1,6 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { Crown, Calculator, Settings, Microscope, FlaskConical, Shield, TestTube, Mail, MapPin } from 'lucide-react';
+import { Crown, Calculator, Settings, Microscope, FlaskConical, Shield, TestTube, Mail, MapPin, Phone } from 'lucide-react';
 const About = () => {
   return <div className="min-h-screen bg-background">
       <Header />
@@ -163,6 +163,32 @@ const About = () => {
                 </div>
               </section>
               
+              <section>
+                <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
+                <div className="bg-card p-6 rounded-lg border space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <Phone className="h-5 w-5 text-primary" />
+                    <div>
+                      <p className="font-medium">Phone</p>
+                      <a href="tel:+16024836972" className="text-primary hover:underline">+1 (602) 483-6972</a>
+                    </div>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Mail className="h-5 w-5 text-primary" />
+                    <div>
+                      <p className="font-medium">Email</p>
+                      <a href="mailto:info@therapeaklab.com" className="text-primary hover:underline">info@therapeaklab.com</a>
+                    </div>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <MapPin className="h-5 w-5 text-primary" />
+                    <div>
+                      <p className="font-medium">Address</p>
+                      <p className="text-muted-foreground">625 S 27th Ave, Phoenix, AZ 85009</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
               
             </div>
           </div>

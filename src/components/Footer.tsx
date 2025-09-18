@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Badge } from '@/components/ui/badge';
-import { Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 import theraPeakLogo from '@/assets/thera-peak-logo-new.png';
 const footerLinks = {
   services: [{
@@ -68,6 +68,10 @@ export function Footer() {
             
             {/* Contact Info */}
             <div id="contact-info" className="space-y-3">
+              <div className="flex items-center space-x-2 text-sm">
+                <Phone className="h-4 w-4" />
+                <a href="tel:+16024836972" className="hover:text-primary-foreground transition-colors">+1 (602) 483-6972</a>
+              </div>
               <div className="flex items-center space-x-2 text-sm">
                 <Mail className="h-4 w-4" />
                 <a href="mailto:info@therapeaklab.com" className="hover:text-primary-foreground transition-colors">info@therapeaklab.com</a>
