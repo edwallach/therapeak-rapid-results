@@ -3,7 +3,6 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { TrustStrip } from '@/components/TrustStrip';
 import { ServicesPreview } from '@/components/ServicesPreview';
-import { PathogenSpotlight } from '@/components/PathogenSpotlight';
 import { ProcessSteps } from '@/components/ProcessSteps';
 import { ArrowRight, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -49,7 +48,6 @@ const Index = () => {
 
       <TrustStrip />
       <ServicesPreview />
-      <PathogenSpotlight />
       <ProcessSteps />
 
       {/* Final CTA Section */}

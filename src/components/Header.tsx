@@ -7,7 +7,6 @@ import theraPeakLogo from '@/assets/thera-peak-logo-new.png';
 
 const navigation = [
   { name: 'Services', href: '/services' },
-  { name: 'Pathogens', href: '/pathogens' },
   { name: 'Industries', href: '/industries' },
   { name: 'About', href: '/about' },
 ];
