@@ -71,13 +71,6 @@ const About = () => {
                   <h3 className="text-xl font-semibold mb-6 text-center">Executive Leadership</h3>
                   <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                     <div className="text-center">
-                      <div className="relative mb-4">
-                        <img 
-                          src={teamCEO} 
-                          alt="Dr. Robert Williams - Founder & CEO" 
-                          className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
-                      </div>
                       <h4 className="text-lg font-semibold mb-1">Dr. Robert Williams</h4>
                       <p className="text-primary font-medium mb-2">Founder & CEO</p>
                       <p className="text-sm text-muted-foreground">
@@ -86,13 +79,6 @@ const About = () => {
                     </div>
                     
                     <div className="text-center">
-                      <div className="relative mb-4">
-                        <img 
-                          src={teamCFO} 
-                          alt="Lisa Anderson - Chief Financial Officer" 
-                          className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
-                      </div>
                       <h4 className="text-lg font-semibold mb-1">Lisa Anderson</h4>
                       <p className="text-primary font-medium mb-2">Chief Financial Officer</p>
                       <p className="text-sm text-muted-foreground">
@@ -101,13 +87,6 @@ const About = () => {
                     </div>
                     
                     <div className="text-center">
-                      <div className="relative mb-4">
-                        <img 
-                          src={teamCOO} 
-                          alt="David Park - Chief Operating Officer" 
-                          className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
-                      </div>
                       <h4 className="text-lg font-semibold mb-1">David Park</h4>
                       <p className="text-primary font-medium mb-2">Chief Operating Officer</p>
                       <p className="text-sm text-muted-foreground">
@@ -122,13 +101,6 @@ const About = () => {
                   <h3 className="text-xl font-semibold mb-6 text-center">Laboratory Team</h3>
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div className="text-center">
-                      <div className="relative mb-4">
-                        <img 
-                          src={teamLabDirector} 
-                          alt="Dr. Michel Martinez - Laboratory Director" 
-                          className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
-                      </div>
                       <h4 className="text-lg font-semibold mb-1">Dr. Michel Martinez</h4>
                       <p className="text-primary font-medium mb-2">Laboratory Director</p>
                       <p className="text-sm text-muted-foreground">
@@ -137,13 +109,6 @@ const About = () => {
                     </div>
                     
                     <div className="text-center">
-                      <div className="relative mb-4">
-                        <img 
-                          src={teamResearchScientist} 
-                          alt="Michael Chen - Senior Research Scientist" 
-                          className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
-                      </div>
                       <h4 className="text-lg font-semibold mb-1">Michael Chen</h4>
                       <p className="text-primary font-medium mb-2">Senior Research Scientist</p>
                       <p className="text-sm text-muted-foreground">
@@ -152,13 +117,6 @@ const About = () => {
                     </div>
                     
                     <div className="text-center">
-                      <div className="relative mb-4">
-                        <img 
-                          src={teamQAManager} 
-                          alt="Emma Hilger - Quality Assurance Manager" 
-                          className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
-                      </div>
                       <h4 className="text-lg font-semibold mb-1">Emma Hilger</h4>
                       <p className="text-primary font-medium mb-2">Quality Assurance Manager</p>
                       <p className="text-sm text-muted-foreground">
@@ -167,13 +125,6 @@ const About = () => {
                     </div>
                     
                     <div className="text-center">
-                      <div className="relative mb-4">
-                        <img 
-                          src={teamLabTechnician} 
-                          alt="James Rodriguez - Lead Laboratory Technician" 
-                          className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
-                        />
-                      </div>
                       <h4 className="text-lg font-semibold mb-1">James Rodriguez</h4>
                       <p className="text-primary font-medium mb-2">Lead Laboratory Technician</p>
                       <p className="text-sm text-muted-foreground">
