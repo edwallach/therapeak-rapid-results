@@ -125,11 +125,11 @@ const About = () => {
                       <div className="relative mb-4">
                         <img 
                           src={teamLabDirector} 
-                          alt="Dr. Sarah Martinez - Laboratory Director" 
+                          alt="Dr. Michel Martinez - Laboratory Director" 
                           className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-primary/20"
                         />
                       </div>
-                      <h4 className="text-lg font-semibold mb-1">Dr. Sarah Martinez</h4>
+                      <h4 className="text-lg font-semibold mb-1">Dr. Michel Martinez</h4>
                       <p className="text-primary font-medium mb-2">Laboratory Director</p>
                       <p className="text-sm text-muted-foreground">
                         Ph.D. in Microbiology with 12+ years in clinical laboratory management and pathogen detection.
