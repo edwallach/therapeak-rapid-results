@@ -4,6 +4,7 @@ import { Footer } from '@/components/Footer';
 import { TrustStrip } from '@/components/TrustStrip';
 import { ServicesPreview } from '@/components/ServicesPreview';
 import { ProcessSteps } from '@/components/ProcessSteps';
+import { ExpansionBanner } from '@/components/ExpansionBanner';
 import { ArrowRight, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import heroImage from '@/assets/hero-lab.jpg';
@@ -21,6 +22,7 @@ const Index = () => {
       <meta property="og:description" content="Specialized in Listeria, Salmonella, and E. coli testing for food producers and processors" />
 
       <Header />
+      <ExpansionBanner />
       
       {/* Hero Section */}
       <section className="relative min-h-[600px] flex items-center bg-gradient-to-r from-primary to-primary/90 overflow-hidden">
