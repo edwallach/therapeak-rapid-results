@@ -1,6 +1,6 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone, Globe } from 'lucide-react';
 import teamCEO from '@/assets/team-ceo-new.jpg';
 import teamCFO from '@/assets/team-cfo-new.jpg';
 import teamCOO from '@/assets/team-coo-new.jpg';
@@ -55,6 +55,75 @@ const About = () => {
                     <h3 className="text-lg font-semibold mb-3">Fast Turnaround</h3>
                     <p className="text-muted-foreground">
                       Efficient processes ensuring quick and reliable test results.
+                    </p>
+                  </div>
+                </div>
+              </section>
+              
+              <section>
+                <h2 className="text-2xl font-semibold mb-6">Global Expansion</h2>
+                <div className="bg-card p-8 rounded-lg border">
+                  <div className="flex items-start gap-4 mb-6">
+                    <Globe className="h-8 w-8 text-primary mt-1 flex-shrink-0" />
+                    <div>
+                      <h3 className="text-xl font-semibold mb-4">New Locations Coming Soon</h3>
+                      <p className="text-muted-foreground mb-6">
+                        We're excited to announce our expansion into Europe with two new laboratory facilities opening soon.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div className="bg-background p-6 rounded-lg border-2 border-primary/20">
+                      <div className="flex items-center gap-2 mb-3">
+                        <MapPin className="h-5 w-5 text-primary" />
+                        <h4 className="text-lg font-semibold">Norway</h4>
+                      </div>
+                      <p className="text-sm text-muted-foreground mb-4">
+                        Our Norwegian facility will serve the Nordic region with the same high standards of food safety testing and rapid turnaround times.
+                      </p>
+                      <div className="inline-flex items-center gap-2 text-sm font-medium text-primary">
+                        <span className="inline-block w-2 h-2 bg-primary rounded-full animate-pulse"></span>
+                        Coming Soon
+                      </div>
+                    </div>
+                    
+                    <div className="bg-background p-6 rounded-lg border-2 border-primary/20">
+                      <div className="flex items-center gap-2 mb-3">
+                        <MapPin className="h-5 w-5 text-primary" />
+                        <h4 className="text-lg font-semibold">Poland</h4>
+                      </div>
+                      <p className="text-sm text-muted-foreground mb-4">
+                        Our Polish location will provide comprehensive food safety testing services for Central and Eastern European markets.
+                      </p>
+                      <div className="inline-flex items-center gap-2 text-sm font-medium text-primary">
+                        <span className="inline-block w-2 h-2 bg-primary rounded-full animate-pulse"></span>
+                        Coming Soon
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-primary/5 p-6 rounded-lg border border-primary/20">
+                    <h4 className="font-semibold mb-3">We Welcome Your Contact</h4>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      Are you in Norway or Poland? We're actively seeking connections with:
+                    </p>
+                    <ul className="space-y-2 text-sm text-muted-foreground mb-4">
+                      <li className="flex items-center gap-2">
+                        <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
+                        <strong>Potential Customers:</strong> Food producers and processors looking for reliable testing partners
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
+                        <strong>Job Applicants:</strong> Qualified laboratory professionals and scientists
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
+                        <strong>Vendors:</strong> Laboratory equipment and supply providers
+                      </li>
+                    </ul>
+                    <p className="text-sm">
+                      Please reach out to <a href="mailto:info@therapeaklab.com" className="text-primary hover:underline font-medium">info@therapeaklab.com</a> to discuss opportunities.
                     </p>
                   </div>
                 </div>
