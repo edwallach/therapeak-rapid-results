@@ -65,13 +65,16 @@ const About = () => {
                 <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-background p-10 md:p-12 rounded-2xl border-2 border-primary/30 shadow-lg">
                   <div className="flex flex-col items-center text-center mb-10">
                     <Globe className="h-16 w-16 text-primary mb-6 animate-pulse" />
-                    <h3 className="text-3xl font-bold mb-6">New Locations Coming Soon</h3>
-                    <p className="text-xl text-muted-foreground max-w-3xl">
-                      We're excited to announce our expansion into Europe with two new state-of-the-art laboratory facilities opening soon.
+                    <h3 className="text-3xl font-bold mb-6">Taking Thera Peak Labs Global</h3>
+                    <p className="text-xl text-muted-foreground max-w-4xl mb-4">
+                      After securing additional investment from our founders, we are expanding internationally to follow our global customers and serve many more food producers worldwide.
+                    </p>
+                    <p className="text-lg text-muted-foreground max-w-3xl">
+                      We are opening three new state-of-the-art laboratory facilities in key international markets.
                     </p>
                   </div>
                   
-                  <div className="grid md:grid-cols-2 gap-8 mb-10">
+                  <div className="grid md:grid-cols-3 gap-8 mb-10">
                     <div className="bg-background p-8 rounded-xl border-2 border-primary/30 shadow-md hover:shadow-xl transition-shadow">
                       <div className="flex items-center gap-3 mb-5">
                         <MapPin className="h-8 w-8 text-primary" />
@@ -99,12 +102,26 @@ const About = () => {
                         Coming Soon
                       </div>
                     </div>
+                    
+                    <div className="bg-background p-8 rounded-xl border-2 border-primary/30 shadow-md hover:shadow-xl transition-shadow">
+                      <div className="flex items-center gap-3 mb-5">
+                        <MapPin className="h-8 w-8 text-primary" />
+                        <h4 className="text-2xl font-bold">Dubai</h4>
+                      </div>
+                      <p className="text-base text-muted-foreground mb-6 leading-relaxed">
+                        Our Dubai hub will serve the Middle East and surrounding regions, bringing our expertise to new markets globally.
+                      </p>
+                      <div className="inline-flex items-center gap-2 text-base font-semibold text-primary px-4 py-2 bg-primary/10 rounded-full">
+                        <span className="inline-block w-3 h-3 bg-primary rounded-full animate-pulse"></span>
+                        Coming Soon
+                      </div>
+                    </div>
                   </div>
                   
                   <div className="bg-primary/10 p-8 md:p-10 rounded-xl border-2 border-primary/30">
                     <h4 className="text-2xl font-bold mb-6 text-center">We Welcome Your Contact</h4>
                     <p className="text-lg text-muted-foreground mb-8 text-center max-w-2xl mx-auto">
-                      Are you in Norway or Poland? We're actively seeking connections with:
+                      Are you in Norway, Poland, or Dubai? We are actively seeking connections with:
                     </p>
                     <ul className="space-y-4 text-base mb-8 max-w-3xl mx-auto">
                       <li className="flex items-start gap-3 bg-background/50 p-4 rounded-lg">

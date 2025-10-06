@@ -14,12 +14,11 @@ export function ExpansionBanner() {
         <div className="flex items-center justify-between gap-4">
           <div className="flex items-center gap-4 flex-1 min-w-0">
             <Globe className="h-7 w-7 md:h-8 md:w-8 flex-shrink-0 animate-pulse" />
-            <div className="flex flex-wrap items-center gap-2 md:gap-3 text-base md:text-xl">
-              <span className="font-bold text-lg md:text-2xl">🎉 Exciting News!</span>
-              <span className="hidden sm:inline font-medium">We're expanding to</span>
-              <span className="inline sm:hidden font-medium">Expanding to</span>
-              <span className="font-extrabold text-lg md:text-2xl">Norway & Poland</span>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-sm md:text-base font-bold border border-white/30">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-1 sm:gap-2 md:gap-3 text-sm md:text-lg">
+              <span className="font-bold text-base md:text-xl">🌍 Going Global!</span>
+              <span className="font-medium">Following our customers worldwide - Opening offices in</span>
+              <span className="font-extrabold text-base md:text-xl">Norway, Poland & Dubai</span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs md:text-sm font-bold border border-white/30">
                 <span className="inline-block w-2 h-2 bg-white rounded-full animate-pulse"></span>
                 Coming Soon
               </span>
