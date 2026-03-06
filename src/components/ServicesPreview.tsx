@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Microscope, FlaskConical, Droplets } from 'lucide-react';
+import { Microscope, FlaskConical, Droplets, Dna } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const services = [
@@ -10,6 +10,13 @@ const services = [
     description: 'Comprehensive testing for Listeria, Salmonella, and E. coli with rapid results and actionable guidance.',
     methods: 'PCR, Traditional Culture',
     turnaround: '24-48 hours',
+  },
+  {
+    icon: Dna,
+    title: 'Genome Sequencing',
+    description: 'All-purpose next-generation sequencing on Illumina, PacBio, and Ion Torrent platforms for research, clinical, and agricultural applications.',
+    methods: 'NGS, Long-read, Short-read',
+    turnaround: '5-10 business days',
   },
   {
     icon: FlaskConical,
