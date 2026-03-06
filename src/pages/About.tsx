@@ -16,7 +16,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold mb-8">About Thera Peak Labs Inc.</h1>
             <p className="text-lg text-muted-foreground mb-12">
-              Leading the way in precision diagnostics and laboratory testing services.
+              Leading the way in food safety testing and advanced genome sequencing — powered by Illumina, PacBio, and Ion Torrent platforms.
             </p>
             
             <div className="space-y-12">
@@ -24,9 +24,9 @@ const About = () => {
                 <h2 className="text-2xl font-semibold mb-6">Our Mission</h2>
                 <p className="text-muted-foreground leading-relaxed">
                   At Thera Peak Labs Inc., we are committed to delivering accurate, reliable, and timely 
-                  laboratory testing services that support healthcare professionals, researchers, and 
-                  organizations in making informed decisions. Our state-of-the-art facilities and 
-                  expert team ensure the highest standards of quality and precision.
+                  food safety testing and genome sequencing services. From pathogen detection to whole-genome 
+                  sequencing on Illumina, PacBio, and Ion Torrent platforms, we support food producers, 
+                  researchers, and organizations in making informed decisions with the highest standards of quality.
                 </p>
               </section>
               

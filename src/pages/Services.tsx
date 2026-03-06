@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Microscope, FlaskConical, Droplets, Clock, Leaf, AlertTriangle } from 'lucide-react';
+import { Microscope, FlaskConical, Droplets, Clock, Leaf, AlertTriangle, Dna, TestTubes } from 'lucide-react';
 const services = [{
   icon: Microscope,
   title: 'Pathogen Testing',
@@ -14,6 +14,24 @@ const services = [{
   sampleTypes: 'Food products, Environmental swabs, Ingredients',
   certifications: ['ISO 17025', 'AOAC Validated'],
   price: 'Starting at $45/test'
+}, {
+  icon: Dna,
+  title: 'Whole Genome Sequencing',
+  description: 'Complete genome sequencing for microbial identification, strain typing, outbreak investigation, and research applications using industry-leading platforms.',
+  methods: 'Illumina (short-read), PacBio (HiFi long-read), Ion Torrent',
+  turnaround: '5-10 business days',
+  sampleTypes: 'Bacterial isolates, Environmental DNA, Tissue samples, Plant & animal DNA',
+  certifications: ['ISO 17025', 'CAP Accredited'],
+  price: 'Starting at $250/sample'
+}, {
+  icon: TestTubes,
+  title: 'Targeted & Metagenomic Sequencing',
+  description: 'Amplicon sequencing, 16S/ITS profiling, and shotgun metagenomics for microbiome analysis, species identification, and biodiversity studies.',
+  methods: 'Illumina Amplicon, PacBio Full-length 16S, Ion Torrent Panels',
+  turnaround: '7-14 business days',
+  sampleTypes: 'Soil, Water, Food matrices, Clinical samples, Agricultural samples',
+  certifications: ['ISO 17025', 'CLIA Compliant'],
+  price: 'Starting at $150/sample'
 }, {
   icon: FlaskConical,
   title: 'Environmental Monitoring',
@@ -62,17 +80,17 @@ const services = [{
 }];
 export default function Services() {
   return <>
-      <title>Food Safety Testing Services - Thera Peak Labs Inc.</title>
-      <meta name="description" content="Comprehensive food safety testing services including pathogen detection, environmental monitoring, and finished product testing with rapid turnaround times." />
+       <title>Food Safety & Genome Sequencing Services - Thera Peak Labs Inc.</title>
+      <meta name="description" content="Comprehensive food safety testing and advanced genome sequencing services using Illumina, PacBio, and Ion Torrent platforms." />
       
       <Header />
       
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-r from-primary to-primary/90 text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Testing Services</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Testing & Sequencing Services</h1>
           <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto">
-            From environmental swabs to finished product verification, our methods deliver defensible results with turnaround aligned to your production schedule.
+            Food safety testing and all-purpose genome sequencing on Illumina, PacBio, and Ion Torrent platforms — defensible results with turnaround aligned to your needs.
           </p>
         </div>
       </section>
