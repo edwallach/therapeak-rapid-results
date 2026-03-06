@@ -16,7 +16,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold mb-8">About Thera Peak Labs Inc.</h1>
             <p className="text-lg text-muted-foreground mb-12">
-              Leading the way in precision diagnostics and laboratory testing services.
+              Leading the way in food safety testing and advanced genome sequencing — powered by Illumina, PacBio, and Ion Torrent platforms.
             </p>
             
             <div className="space-y-12">
