@@ -13,13 +13,13 @@ const Index = () => {
   return (
     <>
       {/* SEO Meta Tags */}
-      <title>Thera Peak Labs Inc. - Rapid, Accredited Food Safety Testing</title>
+       <title>Thera Peak Labs Inc. - Food Safety Testing & Genome Sequencing</title>
       <meta 
         name="description" 
-        content="ISO 17025 accredited food safety laboratory specializing in Listeria, Salmonella, and E. coli testing with 24-48 hour turnaround times." 
+        content="ISO 17025 accredited laboratory specializing in food safety testing and all-purpose genome sequencing using Illumina, PacBio, and Ion Torrent platforms." 
       />
-      <meta property="og:title" content="Thera Peak Labs Inc. - Rapid Food Safety Testing" />
-      <meta property="og:description" content="Specialized in Listeria, Salmonella, and E. coli testing for food producers and processors" />
+      <meta property="og:title" content="Thera Peak Labs Inc. - Food Safety & Genomics" />
+      <meta property="og:description" content="Food safety testing and advanced genome sequencing services using Illumina, PacBio, and Ion Torrent" />
 
       <Header />
       <ExpansionBanner />
