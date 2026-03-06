@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Microscope, FlaskConical, Droplets, Clock, Leaf, AlertTriangle } from 'lucide-react';
+import { Microscope, FlaskConical, Droplets, Clock, Leaf, AlertTriangle, Dna, TestTubes } from 'lucide-react';
 const services = [{
   icon: Microscope,
   title: 'Pathogen Testing',
@@ -14,6 +14,24 @@ const services = [{
   sampleTypes: 'Food products, Environmental swabs, Ingredients',
   certifications: ['ISO 17025', 'AOAC Validated'],
   price: 'Starting at $45/test'
+}, {
+  icon: Dna,
+  title: 'Whole Genome Sequencing',
+  description: 'Complete genome sequencing for microbial identification, strain typing, outbreak investigation, and research applications using industry-leading platforms.',
+  methods: 'Illumina (short-read), PacBio (HiFi long-read), Ion Torrent',
+  turnaround: '5-10 business days',
+  sampleTypes: 'Bacterial isolates, Environmental DNA, Tissue samples, Plant & animal DNA',
+  certifications: ['ISO 17025', 'CAP Accredited'],
+  price: 'Starting at $250/sample'
+}, {
+  icon: TestTubes,
+  title: 'Targeted & Metagenomic Sequencing',
+  description: 'Amplicon sequencing, 16S/ITS profiling, and shotgun metagenomics for microbiome analysis, species identification, and biodiversity studies.',
+  methods: 'Illumina Amplicon, PacBio Full-length 16S, Ion Torrent Panels',
+  turnaround: '7-14 business days',
+  sampleTypes: 'Soil, Water, Food matrices, Clinical samples, Agricultural samples',
+  certifications: ['ISO 17025', 'CLIA Compliant'],
+  price: 'Starting at $150/sample'
 }, {
   icon: FlaskConical,
   title: 'Environmental Monitoring',
