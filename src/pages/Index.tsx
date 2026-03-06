@@ -32,12 +32,11 @@ const Index = () => {
         />
         <div className="relative container mx-auto px-4 text-center text-primary-foreground">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Rapid, accredited food safety testing
+           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+              Food Safety Testing & Advanced Genome Sequencing
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              We help food producers prevent recalls with fast, reliable results. 
-              Specialists in Listeria, Salmonella, and E. coli.
+              From pathogen detection to whole-genome sequencing — powered by Illumina, PacBio, and Ion Torrent platforms. Fast, reliable, accredited results.
             </p>
             <div className="flex justify-center">
               <Button size="lg" variant="secondary" asChild>

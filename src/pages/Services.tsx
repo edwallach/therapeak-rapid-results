@@ -88,9 +88,9 @@ export default function Services() {
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-r from-primary to-primary/90 text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Testing Services</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Testing & Sequencing Services</h1>
           <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto">
-            From environmental swabs to finished product verification, our methods deliver defensible results with turnaround aligned to your production schedule.
+            Food safety testing and all-purpose genome sequencing on Illumina, PacBio, and Ion Torrent platforms — defensible results with turnaround aligned to your needs.
           </p>
         </div>
       </section>

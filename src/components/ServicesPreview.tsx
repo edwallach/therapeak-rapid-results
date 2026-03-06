@@ -38,10 +38,10 @@ export function ServicesPreview() {
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Our Testing Services</h2>
+         <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold mb-4">Our Services</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            From environmental swabs to finished product verification, our methods deliver defensible results with turnaround aligned to your production schedule.
+            From food safety testing to advanced genome sequencing on Illumina, PacBio, and Ion Torrent — defensible results with turnaround aligned to your schedule.
           </p>
         </div>
 
