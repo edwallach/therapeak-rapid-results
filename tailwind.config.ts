@@ -57,7 +57,6 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Clinical design system colors
         lab: {
           blue: "hsl(var(--lab-blue))",
           "blue-foreground": "hsl(var(--lab-blue-foreground))",
@@ -68,6 +67,12 @@ export default {
         warning: {
           amber: "hsl(var(--warning-amber))",
         },
+        helix: {
+          purple: "hsl(var(--helix-purple))",
+        },
+        sequencer: {
+          cyan: "hsl(var(--sequencer-cyan))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -76,20 +81,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
