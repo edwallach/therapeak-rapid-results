@@ -15,11 +15,9 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="border-b bg-background shadow-sm sticky top-0 z-50">
-      {/* Main navigation */}
+    <header className="border-b border-border bg-background/95 backdrop-blur-sm shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
               src={theraPeakLogo} 
@@ -28,7 +26,6 @@ export function Header() {
             />
           </Link>
 
-          {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             {navigation.map((item) => (
               <Link
@@ -41,14 +38,12 @@ export function Header() {
             ))}
           </nav>
 
-          {/* CTA Button */}
           <div className="hidden sm:flex items-center space-x-4">
-            <Button size="sm" asChild className="bg-accent hover:bg-accent/90">
+            <Button size="sm" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold">
               <a href="#contact-deadline">Contact Us</a>
             </Button>
           </div>
 
-          {/* Mobile menu trigger */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="lg:hidden">
               <Button variant="ghost" size="sm">
@@ -68,7 +63,7 @@ export function Header() {
                   </Link>
                 ))}
                 <div className="border-t pt-4 space-y-2">
-                  <Button size="sm" asChild className="w-full bg-accent hover:bg-accent/90">
+                  <Button size="sm" asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
                     <a href="#contact-deadline" onClick={() => setIsOpen(false)}>Contact Us</a>
                   </Button>
                 </div>
