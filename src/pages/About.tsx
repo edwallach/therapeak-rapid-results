@@ -78,28 +78,29 @@ const About = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-3">Following Our Customers Worldwide</h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      Backed by additional investment from our founders, we're opening new laboratories 
-                      in key international markets to serve our growing global customer base with the same 
-                      accredited quality and rapid turnaround they depend on.
+                      After securing additional investments from our founders, we're expanding our laboratory 
+                      network to serve our growing global customer base. New facilities will open across 
+                      Europe, Asia, and Latin America throughout 2026-2027, delivering the same accredited 
+                      quality and rapid turnaround our clients depend on.
                     </p>
                   </div>
                 </div>
                 
                 <div className="grid md:grid-cols-3 gap-4 mb-8">
                   {[
-                    { city: 'Norway', region: 'Nordic & Northern Europe' },
-                    { city: 'Poland', region: 'Central & Eastern Europe' },
-                    { city: 'Dubai', region: 'Middle East & Africa' },
+                    { region: 'Europe', timeline: 'Q2 2026' },
+                    { region: 'Asia', timeline: 'Q4 2026' },
+                    { region: 'Latin America', timeline: '2027' },
                   ].map(loc => (
-                    <div key={loc.city} className="bg-card p-5 rounded-lg border border-border/60">
+                    <div key={loc.region} className="bg-card p-5 rounded-lg border border-border/60">
                       <div className="flex items-center gap-2 mb-2">
                         <MapPin className="h-4 w-4 text-accent" />
-                        <h4 className="text-lg font-bold">{loc.city}</h4>
+                        <h4 className="text-lg font-bold">{loc.region}</h4>
                       </div>
-                      <p className="text-sm text-muted-foreground">{loc.region}</p>
-                      <span className="inline-flex items-center gap-1.5 mt-3 text-xs font-mono text-accent">
+                      <p className="text-sm text-muted-foreground mb-2">New Laboratory</p>
+                      <span className="inline-flex items-center gap-1.5 text-xs font-mono text-accent">
                         <span className="w-1.5 h-1.5 bg-accent rounded-full animate-pulse" />
-                        Coming Soon
+                        Opening {loc.timeline}
                       </span>
                     </div>
                   ))}

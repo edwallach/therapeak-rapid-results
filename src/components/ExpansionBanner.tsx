@@ -15,9 +15,9 @@ export function ExpansionBanner() {
           <div className="flex items-center gap-3 flex-1 min-w-0">
             <Globe className="h-5 w-5 flex-shrink-0" />
             <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-1 sm:gap-2 text-sm">
-              <span className="font-bold">Going Global</span>
+              <span className="font-bold">Global Expansion</span>
               <span className="hidden sm:inline">·</span>
-              <span className="font-medium">New labs opening in Norway, Poland & Dubai</span>
+              <span className="font-medium">Labs opening in Europe, Asia & Latin America 2026-2027</span>
             </div>
           </div>
           <div className="flex items-center gap-2">
